@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        /* Estilo da bandeira */
+        .flag {
+            width: 300px;
+            height: 200px;
+            background-color: #002776;
+            transition: width 1s, height 1s;
+        }
+
+        /* Estilo da faixa amarela */
+        .yellow-stripe {
+            width: 100%;
+            height: 20%;
+            background-color: #fff;
+            transition: height 1s;
+        }
+
+        /* Estilo da faixa verde */
+        .green-stripe {
+            width: 100%;
+            height: 20%;
+            background-color: #00b200;
+            transition: height 1s;
+        }
+
+        /* Estilo quando o mouse está sobre a bandeira */
+        .flag:hover {
+            width: 350px;
+            height: 250px;
+        }
+
+        .flag:hover .yellow-stripe {
+            height: 25%;
+        }
+
+        .flag:hover .green-stripe {
+            height: 25%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flag">
+        <div class="yellow-stripe"></div>
+        <div class="green-stripe"></div>
+    </div>
+</body>
