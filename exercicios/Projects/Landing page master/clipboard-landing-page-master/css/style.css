@@ -49,7 +49,7 @@ header p {
 }
 
 #download {
-    padding: 150px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
