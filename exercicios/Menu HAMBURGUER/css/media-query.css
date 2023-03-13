@@ -16,7 +16,7 @@
 
     ul li {
         display: inline-block;
-        padding: 12px;
+        padding: 10px;
     }
 
     nav a {
@@ -24,12 +24,6 @@
         border-top: none;
         display: inline;
     }
-
-    nav li:hover {
-        background-color: rgb(153, 153, 153);
-    }
-
-
 
     main {
         width: 600px;

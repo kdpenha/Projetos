@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1439px) {
+    
+
+    /*HEADER*/
+    header {
+        background: url(../images/bg-header-desktop.png) no-repeat top left;
+        background-size: cover;
+        height: 75vh;
+    }
+
+    #section-header {
+        width: 800px;
+        margin: auto;
+    }
+
+    #download {
+        padding: 30px;
+        gap: 40px;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .download-ios {
+        box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.226);
+    }
+
+    .download-mac {
+        box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.226);
+    }
+
+    /*SNIPPETS*/
+    #section-from-snippets {
+        margin-bottom: 90px;
+    }
+
+    #section-snippets {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #section-snippets p {
+        width: 800px;
+        text-align: center;
+    }   
+
+    #image-computer {
+        width: 600px;
+    }
+
+    #side-to-side {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 50px;
+        align-items: center;
+    }
+
+    #column-aside {
+        width: 400px;
+    }
+
+    #column-aside h2 {
+        font-size: 1.2em;
+    }
+
+    #column-aside p {
+        font-size: 1em;
+    }
+
+    /*CLIPBOARD*/
+    #section-clipboard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #clipboard {
+        width: 700px;
+    }
+
+    #image-devices {
+        width: 650px;
+    }
+
+    /*WORKFLOW*/
+
+    #supercharge {
+        margin-bottom: 15px;
+    }
+
+    #supercharge-workflow { 
+        display: flex;
+        flex-direction: row;
+        width: 1200px;
+        margin: auto;
+    }
+
+    #blacklists, #text-snippets, #section-sneak-preview{
+        width: 500px;
+    }
+
+    #blacklists h2, #text-snippets h2, #section-sneak-preview h2{
+        font-size: 1.2em ;
+    }
+
+    #blacklists p, #text-snippets p, #section-sneak-preview p {
+        font-size: 1em;
+        line-height: 1.6em;
+    }
+
+    #img-blacklists, #image-icon, #icon-preview {
+        width: 50px;
+    }
+
+    /*COMPANIES */
+    #companies {
+        flex-direction: row;
+        justify-content: center;
+        gap: 100px;
+    }
+
+    /*THE LAST*/
+    #the-last {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #the-last p {
+        width: 900px;
+        margin-bottom: 20px;
+    }
+}

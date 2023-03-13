@@ -32,6 +32,7 @@ nav a {
     border-top: 2px solid gray;
 }
 
+
 nav a:hover {
     background-color: rgb(153, 153, 153);
 }
