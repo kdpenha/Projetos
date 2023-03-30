@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <h1>kay.byte</h1>
+
+    <div id="calculadora">
+        <div id="area-resultado">
+            <input id="resultado" type="text" disabled placeholder="0">
+        </div>
+
+        <div id="ladin">
+            <div id="primeira-coluna">
+                <div id="row-1">
+                    <button onclick="calculo('acao', 'c')" class="botoes longo">C</button>
+                    <button onclick="calculo('acao', '/')" class="botoes">/</button>
+                </div>
+                <div id="colunas">
+                    <div id="coluna-1">
+                        <button onclick="calculo('valor', 9)" class="botoes">9</button>
+                        <button onclick="calculo('valor', 6)" class="botoes">6</button>
+                        <button onclick="calculo('valor', 3)" class="botoes">3</button>
+                    </div>
+                    <div id="coluna-2">
+                        <button onclick="calculo('valor', 8)" class="botoes">8</button>
+                        <button onclick="calculo('valor', 5)" class="botoes">5</button>
+                        <button onclick="calculo('valor', 2)" class="botoes">2</button>
+                    </div>
+                    <div id="coluna-3">
+                        <button onclick="calculo('valor', 7)" class="botoes">7</button>
+                        <button onclick="calculo('valor', 4)" class="botoes">4</button>
+                        <button onclick="calculo('valor', 1)" class="botoes">1</button>
+                    </div>
+                </div>
+                <div id="row-last">
+                    <button onclick="calculo('valor', 0)" class="botoes longao">0</button>
+                </div>
+            </div>
+            <div id="segunda-coluna">
+                <div id="coluna-4">
+                    <button onclick="calculo('acao', '*')" class="botoes">x</button>
+                    <button onclick="calculo('acao', '+')" class="botoes">+</button>
+                    <button onclick="calculo('acao', '-')" class="botoes">-</button>
+                    <button onclick="calculo('acao', '.')" class="botoes">.</button>
+                    <button onclick="calculo('acao', '=')" class="botoes">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

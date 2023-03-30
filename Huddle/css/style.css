@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    user-select: none
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    background: hsl(257, 40%, 49%) url(../images/bg-desktop.svg) no-repeat;
+    background-size: cover;
+}
+
+#container {
+    margin: 0 auto;
+}
+
+header img {
+    padding: 60px;
+    margin-left: 20px;
+}
+
+main {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+main section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+}
+
+section #right {
+    width: 600px;
+}
+
+/*FORMATAÇOES GERAIS
+================================*/
+
+h2 {
+    font-size: 3em;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    line-height: 1.2em;
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1em;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 1.4em;
+    color: #fff;
+    padding: 20 0px 20px 0px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.322);
+    margin-bottom: 20px;
+}
+
+section button {
+    width: 150px;
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+    color: hsl(257, 40%, 49%);
+    padding: 20px;
+    border-radius: 40px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.404);
+    margin-bottom: 5px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    right: 792px;
+}
+
+footer p {
+    display: block;
+}
+
+#center-button {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#right-button {
+    margin-left: 24px;
+    width: 85px;
+    padding: 9px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+    background: hsla(300, 69%, 71%, 0.267);
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.24);
+}
+
+#right-button img {
+    width: 25px;
+    margin-top: 2px;
+}
