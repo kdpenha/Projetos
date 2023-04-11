@@ -1,0 +1,20 @@
+@media screen and (max-width: 1200px){
+    #background-principal img{
+        display: none;
+    }
+
+    #principal {
+        width: 100%;
+    }
+
+    #links {
+        display: none;
+    }
+
+    #burguer {
+        display: block;
+        color: white;
+        font-weight: lighter;
+        font-size: 50px;
+    }
+}

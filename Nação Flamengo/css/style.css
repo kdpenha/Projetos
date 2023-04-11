@@ -1,0 +1,461 @@
+/*FONTES IMPORTADAS*/
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&display=swap');
+/*font-family: 'Rajdhani', sans-serif;*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: normal;
+    font-size: 1em;
+    overflow-x: hidden;
+}
+
+/*BACKGROUND PRINCIPAL*/
+section#background-principal {
+    display: flex;
+    justify-content: center;
+}
+
+section#background-principal img {
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.596);
+    
+}
+
+/*HEADER E NAV*/
+header {
+    background-color: rgb(0, 0, 0) ;
+    padding: 10px;
+}
+
+nav#secondary {
+    display: none;
+}
+
+nav#principal {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav#principal a {
+    color: white;
+    font-size: 1.5em;
+    margin-right: 10px;
+    transition-duration: 0.5s;
+}
+
+nav#principal a:hover {
+    color: rgb(151, 18, 18);
+    font-size: 1.6em;
+}
+
+nav a#separado {
+    border-left: 2px solid gray;
+    padding-left: 20px;
+    margin-left: 10px;
+}
+
+/*CAMPEONATOS*/
+section#socio {
+    margin-bottom: 20px;
+    width: 1300px;
+    padding: 30px;
+    margin: 0 auto;
+}  
+
+
+/*section#noticias{
+    width: 50%;
+    border: 1px solid red;
+}*/
+
+/*MAIN*/
+main {
+    background-color: white;
+    margin: 0 auto;
+}
+
+/*IDS E CLASSES*/
+#logo img {
+    width: 100px;
+}
+
+
+#socio h2 {
+    display: inline-block;
+    font-size: 2em;
+    color: black;
+    border-left: 2px solid gray;
+    padding-left: 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    
+}
+
+#socio p {
+    display: inline-block;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+
+.divisory {
+    margin: 10px auto 0px auto;    
+    height: 2px;
+    width: 50px;
+    background-color: rgba(218, 165, 32, 0.801) ;
+}
+
+.divisory2 {
+    margin: 10px auto 40px auto;    
+    height: 2px;
+    width: 60px;
+    background-color: rgb(129, 28, 28) ;
+}
+
+
+#categorias #opcoes p{
+    text-transform: uppercase;
+}
+
+#opcoes a {
+        background: rgb(139, 15, 15);
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+
+#opcoes {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+
+#socio #mobile {
+    display: none;
+}
+
+/*#side-to-side {
+    display: flex;
+    justify-content: space-between;
+}*/
+
+#noticias h2 {
+    border-left: none;
+    text-align: center;
+    text-shadow: 1px 5px 5px rgba(0, 0, 0, 0.322);
+    margin-bottom: 25px;
+    padding-top: 25px;
+}
+
+#noticias {
+    margin-bottom: 20px;
+    box-shadow: 1px 10px 30px rgba(0, 0, 0, 0.322);
+}
+
+#noticias-conteudo {
+    display: flex;
+    background: url(../imagens/Flamengo-Maracana-Libertadores.jpg) no-repeat fixed;
+    
+    justify-content: space-around;
+    gap: 50px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+
+#decisivo {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    border: 1px solid rgba(0, 0, 0, 0.377);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 0px 0px 10px 10px;
+}
+
+#decisivoh3 {
+    background: url(../imagens/torcida.jpg) no-repeat;
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#decisivoh3 h3 {
+    color: white;
+    font-size: 3em;
+    background-color: rgba(255, 0, 0, 0.432);
+    padding: 20px;
+}
+
+#decisivop p {
+    color: rgb(161, 13, 13);
+    font-size: 1.8em;
+    font-weight: bold;
+    background-color:white;
+    padding: 15px;
+    border-radius: 0px 0px 10px 10px ;
+}
+
+#dec{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#flaxvas-conteudo {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    border: 1px solid rgba(0, 0, 0, 0.377);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 0px 0px 10px 10px;
+}
+
+#flaxvash3 {
+    background: url(../imagens/pedro.png) no-repeat;
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#flaxvash3 h3 {
+    color: white;
+    font-size: 2.7em;
+    background-color: rgba(255, 0, 0, 0.432);
+    padding: 20px;
+}
+
+#flaxvasp p {
+    color: rgb(161, 13, 13);
+    font-size: 1.8em;
+    font-weight: bold;
+    background-color:white;
+    padding: 15px;
+    border-radius: 0px 0px 10px 10px ;
+
+}
+
+#flaxvas{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#cla{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#classico-conteudo {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    border: 1px solid rgba(0, 0, 0, 0.377);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 0px 0px 10px 10px;
+}
+
+#classicoh3 {
+    background: url(../imagens/gabi.jpg) no-repeat;
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#classicoh3 h3 {
+    color: white;
+    font-size: 2.7em;
+    background-color: rgba(255, 0, 0, 0.432);
+    padding: 20px;
+}
+
+#classicop p {
+    color: rgb(161, 13, 13);
+    font-size: 1.8em;
+    font-weight: bold;
+    background-color:white;
+    padding: 15px;
+    border-radius: 0px 0px 10px 10px ;
+
+}
+
+.imagem-noticia {
+    width: 300px;
+    height: 200px;
+    border: 1px solid green;
+}
+
+
+.data {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.61);
+    font-weight: bold;
+    display: block;
+    align-self: center;
+}
+
+/*aside{
+    width: 50%;
+}*/
+
+#curiosidades p {
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/*FORMATAÇÕES*/
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 2em;
+    color: black;
+    border-left: 2px solid gray;
+    padding-left: 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+#socio .mobile {
+    display: none;
+}
+
+#loja-imagens {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.itens-loja {
+    height: 500px;
+    width: 400px;
+    border: 1px solid rgba(0, 0, 0, 0.315);
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.itens-loja p {
+    text-align: center;
+    color: rgb(29, 29, 29);
+}
+
+.itens-loja span {
+    color: rgb(151, 22, 22);
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.itens-loja a {
+    padding: 10px;
+}
+
+#loja img {
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+}
+
+#loja-imagens {
+    width: 1200px;
+    display: flex;
+    margin: auto;
+}
+
+#imagem-pequena {
+    display: none;
+}
+
+#loja h2 {
+    padding: 50px;
+    padding-bottom: 30px;
+    border-left: none;
+    font-weight: 400;
+    text-align: center;
+    font-size: 5em;
+}
+
+#loja-verMais a{
+    display: block;
+    text-align: center;
+    background: rgb(185, 28, 28);
+    width: 200px;
+    margin: auto;
+    font-size: 2.5em;
+    color: white;
+    padding: 12px;
+    border-radius: 20px;
+    margin-top: 30px;
+    transition-duration: 0.5s;
+}
+
+#loja-verMais a:hover {
+    background-color: rgb(138, 26, 26) ;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: rgb(31, 29, 29);
+}
+
+footer a {
+    display: block;
+    color: rgb(146, 146, 146);
+    padding: 25px;
+    font-size: 20px;
+
+    transition-duration: 0.6s;
+}
+
+ul {
+    list-style-type: none;
+}
+
+footer li {
+    text-align: center;
+}
+
+footer a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+footer p {
+    color: rgb(109, 109, 109);
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    font-weight: lighter;
+}

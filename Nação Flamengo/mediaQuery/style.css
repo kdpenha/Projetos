@@ -1,0 +1,153 @@
+@media screen and (max-width: 767.99px) {
+    #background-principal img{
+        width: 100%;
+    }
+
+    #links {
+        display: none;
+    }
+
+    #burguer {
+        color: rgb(175, 13, 13);
+        font-size: 30px;
+        border: 1px solid rgba(54, 54, 54, 0.685);
+        padding: 8px;
+        border-radius: 10px;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    nav#principal {
+        justify-content: space-between;
+    }
+
+    #secondary {
+        display: none;
+    }
+
+    section#socio {
+        padding: 20px;
+        margin-top: 15px;
+        width: 300px;
+        height: 280px;
+        background: rgba(56, 48, 48, 0.247);
+        border-radius: 20px;
+        margin-bottom: 30px;
+    }
+
+    section#socio h2 {
+        display: none;
+    }
+
+    section#noticias {
+        display: none;
+    }
+
+    section#loja {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section#loja h2 {
+        text-align: justify;
+        margin-bottom: 5px;
+    }
+
+    .itens-loja {
+        display: none;
+    }
+
+    #imagem-pequena {
+        align-self: center;
+    }
+
+    #imagem-pequena img {
+        width: 100px;
+        height: 100px;
+        padding: 0px;
+    }
+
+    #loja-verMais {
+        align-self: center;
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #loja-verMais a{
+        display: block;
+        text-align: center;
+        background: rgb(185, 28, 28);
+        width: 200px;
+        font-size: 2.5em;
+        color: white;
+        padding: 12px;
+        border-radius: 20px;
+        margin-top: 30px;
+        transition-duration: 0.5s;
+    }
+
+    #socio .mobile {
+        display: block;
+        border-left: none;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #opcoes{
+        display: none;
+    }
+
+    #categorias p {
+        display: none;
+    }
+
+    #socio #planos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #socio #mobile {
+        display: block;
+        color: white;
+        font-size: 1.5em;
+        letter-spacing: 2px;
+        background: rgb(31, 25, 25);
+        padding: 15px;
+        text-align: center;
+        border-radius: 10px;
+        margin-top: 20px;
+        width: 100px;
+    }
+
+    section#socio p {
+        font-weight: 400;
+        text-align: justify;
+    }
+
+    section#socio span {
+        display: block;
+        text-align: center;
+    }
+
+    nav#secondary ul li {
+        border: 1px solid rgba(31, 31, 31, 0.459);
+        background-color: rgb(94, 19, 19);
+    }
+
+    nav#secondary ul li a{
+        display: block;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        font-size: 1.6em;
+    }
+
+    footer a {
+        display: block;
+    }
+}   
